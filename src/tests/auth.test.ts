@@ -13,4 +13,8 @@ describe("person", () => {
   test("is active", () => {
     expect(person.isActive).toBeTruthy();
   });
+
+  test("age is 32", () => {
+    expect(person.age).toBe(32);
+  });
 });
